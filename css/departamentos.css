@@ -1,0 +1,78 @@
+.contenedor-departamentos {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.data {
+
+    display: block;
+    max-width: 65%;
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+}
+
+.data h2 {
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.data p {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: medium;
+}
+
+.departamento-izq {
+    background-image: url(../images/logo/panal3.jpg);
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+
+    float: left;
+    display: flex;
+    height: 350px;
+
+}
+
+#imagen-izq {
+    float: left;
+    border-radius: 25%;
+    height: 250px;
+    margin: 20px;
+    max-width: 35%;
+
+}
+
+
+
+#imagen-der {
+    float: right;
+    border-radius: 25%;
+    height: 250px;
+    margin: 20px;
+
+}
+
+
+
+@media (max-width: 414px) {
+
+    #imagen-izq,
+    #imagen-der {
+        float: none;
+
+    }
+
+    .contenedor-departamentos p {
+        font-size: 18px;
+        max-width: 400px;
+    }
+}

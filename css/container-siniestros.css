@@ -1,0 +1,53 @@
+.container-siniestros {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 360px;
+
+}
+
+.forma {
+    height: 300px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+.container-siniestros a {
+
+    line-height: 35px;
+    font-size: 1.5rem;
+    font-size: 25px;
+    transition: 0.5s;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    top: 37%;
+    left: 50%;
+    position: absolute;
+    font-family: url(../index/fuentes/Montserrat-Bold.ttf);
+}
+
+.container-siniestros a:hover {
+    color: #FFF;
+
+}
+
+.container-siniestros iconify-icon {
+    bottom: 75%;
+    left: 47.5%;
+    position: absolute;
+}
+
+
+#segunda-linea {
+    margin-top: 25px;
+    margin-right: 15px;
+}

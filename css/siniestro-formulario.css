@@ -1,0 +1,63 @@
+.slogan-siniestros {
+    text-align: center;
+    margin: auto;
+    background-color: #FFF;
+    font-family: url(../index/fuentes/Montserrat-ExtraBold.ttf);
+    width: 100%;
+    padding: 30px;
+    height: 150px;
+    display: block;
+
+}
+
+
+
+.slogan-siniestros h3 {
+    text-decoration: underline;
+
+}
+
+.slogan-siniestros a {
+
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    padding: 15px 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgba(79, 16, 188, 1);
+}
+
+.slogan-siniestros a:hover {
+    color: #FFF;
+}
+
+.boton-siniestros-1 {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-siniestros-1 a {
+    margin: auto;
+}
+
+.slogan-siniestros a:hover {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,90 @@
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    width: 6.6rem;
+    right: -2.2rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #2071B2;
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+.go-top-button .boton-up {
+    position: absolute;
+    font-size: 3rem;
+    top: 10%;
+    left: 10%;
+    color: #FFF;
+
+}
+
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup .3s ease-in-out;
+    width: 60px;
+    height: 60px;
+    z-index: 11;
+}
+
+.show boton-up {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    100% {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #746CFE;
+}
+
+.my-float {
+    margin-top: 16px;
+}

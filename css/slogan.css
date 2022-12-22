@@ -1,0 +1,103 @@
+.slogan a {
+    margin-bottom: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgba(79, 16, 188, 1);
+}
+
+
+.slogan a:hover {
+    color: #fff;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slogan p {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.mastandrea {
+    max-width: 100%;
+    width: 100%;
+}
+
+.mastandrea img {
+
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    height: 250px;
+}
+
+.slogan-2 {
+    background-image: url(../images/logo/panal3.jpg);
+    margin-bottom: 60px;
+    color: black;
+    font-family: url(../index/fuentes/Montserrat-ExtraBold.ttf);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    height: 250px;
+
+}
+
+
+.slogan-2 a:hover {
+    color: #fff;
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slogan-2 p {
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.slogan-2 a {
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgba(79, 16, 188, 1);
+}

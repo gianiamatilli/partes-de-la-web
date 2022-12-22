@@ -1,0 +1,80 @@
+.top-servicios {
+    background-image: url(../imagenes/panal3.jpg);
+    height: 500px;
+}
+
+
+.titulo-servicios {
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+
+.contenido {
+    margin: 30px 30px 30px 30px;
+
+
+}
+
+.caja1 {
+    margin-top: 10px;
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 15px;
+    position: relative;
+
+}
+
+.caja1 h3 {
+
+    letter-spacing: 6px;
+    font-size: 45px;
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+}
+
+.caja1 p {
+    padding-right: 25px;
+    text-align: justify;
+    margin-top: 40px;
+
+    font-size: 22px;
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+}
+
+
+.caja2 {
+    margin-top: 10px;
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.caja2 h3 {
+    margin-left: 25px;
+    letter-spacing: 6px;
+    font-size: 45px;
+    font-family: url(../fuentes/Montserrat-Bold.ttf);
+}
+
+.caja2 p {
+    padding-left: 25px;
+    text-align: justify;
+
+    font-size: 22px;
+    margin-top: 40px;
+    font-family: url(../fuentes/Montserrat-ExtraBold.ttf);
+}
+
+.container-servicios {
+    width: 100%;
+    display: flex;
+
+}
